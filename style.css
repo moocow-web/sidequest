@@ -1,0 +1,53 @@
+html {
+    background: black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+    color: #FFBF00;
+    font-weight: 100;
+    font-size: 80px
+}
+/*infobox styling*/
+.infobox {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFBF00;
+    outline-color: #FFBF00;
+    outline-width: 3px;
+    outline-style: solid;
+    width: 800px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+}
+/*sets style for top-left title box*/
+.infobox h3 {
+    margin: 0;
+    outline-color: #FFBF00;
+    outline-width: 3px;
+    outline-style: solid;
+    width: 200px;
+    height:25px;
+    position: absolute;
+    left: 0px;
+    top: 0px
+}
+.infobox p {
+    position: absolute;
+    margin-top: 30px
+}
+/*infobox styling end*/
+.flag {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+    color: #FFBF00;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 0;
+}
