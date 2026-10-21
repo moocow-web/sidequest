@@ -89,3 +89,20 @@ h1 {
     top: 6000px;
     height: 1px;
 }
+.cmd {
+    position: relative;
+    text-align: left;
+    margin: 50px;
+    width: 100vw;
+    font-size: 50px !important;
+    color: #FFBF00;
+    font-family: 'Courier New', Courier, monospace;
+    background: none;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+}
+input::placeholder {
+    color: #FFBF00;
+    font-family: 'Courier New', Courier, monospace;
+}
