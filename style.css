@@ -4,8 +4,11 @@ html {
 }
 .overlay {
     position: relative;
-    
 }
+h1, p, h3{
+    text-shadow: 0 0 25px #FFBF00;
+}
+
 .overlay::after {
     top: 0;
     left: 0;
@@ -19,7 +22,7 @@ html {
         rgba(255, 0, 0, 0.2) 1px,
         rgba(0, 255, 0, 0.2) 2px,
         transparent 1px,
-        transparent 5px            
+        transparent 3px            
     );
     pointer-events: none; 
     z-index: 1;           
