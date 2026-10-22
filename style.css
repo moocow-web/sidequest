@@ -79,16 +79,17 @@ h1 {
     font-size: x-small;
     color: #FFBF00;
     position: absolute;
-    top: 6000px;
+    top: 900px;
 
 }
 
 /*extends page, to allow for better testing*/
 .page-extender {
     position: relative;
-    top: 6000px;
+    top: 500px;
     height: 1px;
 }
+/*only used in the "dashboard" page, not main*/
 .cmd {
     display: block;
     margin: 0 auto;
@@ -107,4 +108,19 @@ h1 {
 input::placeholder {
     color: #FFBF00;
     font-family: 'Courier New', Courier, monospace;
+}
+/*button styling*/
+.launch {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    width: 800px !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px !important;
+    color: #000000;
+    background: #FFBF00;
+    outline: 3px solid #FFBF00;
+    box-shadow: none;
+    border: none;
 }
